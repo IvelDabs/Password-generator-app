@@ -63,4 +63,10 @@ h1 {
             padding: 3em 1.5em;
             background: #1C1C1C;
         }
+
+     #first-el,
+        #second-el{
+            display: block;
+        }
+}
 }
