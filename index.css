@@ -56,13 +56,14 @@ h1 {
     width: 100%;
 }
 @media screen and (max-width: 480px) {
-    #container {
+     #container {
             color: white;
-            width: 80%;
+            width: 100%;
             margin: auto;
             padding: 3em 1.5em;
             background: #1C1C1C;
-        }
+            height: 80vh;
+    }
 
      #first-el,
         #second-el{
