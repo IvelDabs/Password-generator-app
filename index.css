@@ -1,0 +1,57 @@
+#container {
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding: 3em 1.5em;
+    background: #1C1C1C;
+}
+
+#generate-btn,
+#btn {
+    background-color: #71AE21;
+    border: none;
+    padding: .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 7px;
+}
+
+input {
+    width: 25%;
+    padding: 10px 5px;
+}
+
+span {
+    display: block;
+    margin: 1em 0;
+}
+
+#random {
+    margin-top: 0;
+    color: #71AE21;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+#text {
+    font-size: 18px;
+}
+
+#password-display {
+    display: flex;
+    gap: 2em;
+}
+
+#first-el,
+#second-el {
+    background-color: #272424;
+    color: #71AE21;
+    padding: .5em 1em;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 100%;
+}
