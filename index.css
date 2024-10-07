@@ -58,7 +58,7 @@ h1 {
 @media screen and (max-width: 480px) {
     #container {
             color: white;
-            width: 90%;
+            width: 80%;
             margin: auto;
             padding: 3em 1.5em;
             background: #1C1C1C;
