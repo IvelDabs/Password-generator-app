@@ -66,8 +66,7 @@ h1 {
     }
 
      #first-el,
-        #second-el{
+     #second-el{
             display: block;
         }
-}
 }
