@@ -28,6 +28,7 @@ function randomPasswords(){
 
             firstEl.textContent += `${characters[generatedOne]}`
             secondEl.textContent += `${characters[generatedTwo]}`
+            lengthPicker.value = ' '
         }
     }else{
         for (let i = 0; i < 15; i++){
@@ -36,6 +37,7 @@ function randomPasswords(){
 
         firstEl.textContent += `${characters[generatedOne]}`
         secondEl.textContent += `${characters[generatedTwo]}`
+        lengthPicker.value = ' '
     }
     }
     
