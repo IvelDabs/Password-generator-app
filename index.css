@@ -56,17 +56,23 @@ h1 {
     width: 100%;
 }
 @media screen and (max-width: 480px) {
-     #container {
+    #container {
             color: white;
-            width: 100%;
+            width: 80%;
             margin: auto;
             padding: 3em 1.5em;
             background: #1C1C1C;
-            height: 80vh;
     }
 
-     #first-el,
-     #second-el{
-            display: block;
-        }
+    #first-el,
+    #second-el{
+        display: block;
+         width: 50%;
+    }
+
+    #password-display {
+        display: flex;
+            flex-direction: column;
+            gap: 1em;
+    }
 }
