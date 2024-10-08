@@ -68,7 +68,7 @@ h1 {
     #first-el,
     #second-el{
         display: block;
-         width: 100%;
+         width: 85%;
     }
 
     #password-display {
