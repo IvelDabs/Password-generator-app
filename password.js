@@ -21,7 +21,7 @@ generateBtn.addEventListener('click', () => {
 
 // Creating the function that handles the logic of generating the random characters.
 function randomPasswords(){
-    if(lengthPicker.value){
+    if(lengthPicker.value && lengthPicker.value <=10){
             for (let i = 0; i < btn.value; i++){
             let generatedOne = Math.floor(Math.random() * characters.length)
             let generatedTwo =  Math.floor(Math.random() * characters.length)
